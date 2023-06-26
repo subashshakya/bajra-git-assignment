@@ -1,0 +1,31 @@
+body {
+  background-color: #ff7276;
+  border-radius: 2em;
+}
+
+.head {
+  padding: 20px;
+  background-image: url("./images/download.png");
+  text-align: center;
+  border-radius: 2em;
+}
+
+.list {
+  text-align: left;
+}
+
+.intro {
+  border: 2px dotted red;
+  border-radius: 2em;
+  text-align: center;
+}
+
+.gallery {
+  padding: 70px;
+  background-color: #010b13;
+  display: grid;
+  grid-template-columns: repeat(2, auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+
+  border: 3px solid red;
+}
