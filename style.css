@@ -1,16 +1,17 @@
 body {
-  background-color: #ff7276;
-  border-radius: 2em;
+  /* border: 5px solid red; */
+  /* border-radius: 2em; */
+  background-image: url("./images/red.webp");
 }
 
 .head {
   padding: 20px;
   background-image: url("./images/download.png");
   text-align: center;
-  border-radius: 2em;
+  /* border-radius: 2em; */
 }
 
-.list {
+/* .list {
   text-align: left;
 }
 
@@ -28,4 +29,30 @@ body {
   gap: 2rem;
 
   border: 3px solid red;
+} */
+
+#shell {
+  background-color: rgba(100%, 40%, 50%, 0.75);
+  text-align: justify;
+  /* background-color: #ff7276; */
+  padding: 30px;
+  margin: 30px;
+  /* width: 100%; */
+  border: 1px solid red;
+  border-radius: 1rem;
+}
+
+#d2c-img {
+  height: 300px;
+  width: 410px;
+}
+
+#d2c {
+  text-align: justify;
+  background-color: rgba(100%, 40%, 50%, 0.75);
+  /* background-color: #ff7276; */
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid red;
+  border-radius: 1rem;
 }
