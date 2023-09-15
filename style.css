@@ -45,6 +45,24 @@ body {
   border-radius: 1rem;
 }
 
+img {
+  height: 20rem;
+  width: 40rem;
+}
+
+.showcase-cont {
+  margin: 5rem 0rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.card-body {
+  background-color: #ff6863;
+}
+
 #d2c-img {
   max-width: 100%;
   max-height: 100%;
