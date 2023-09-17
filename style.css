@@ -37,6 +37,7 @@ body {
   background-color: rgba(100%, 40%, 50%, 0.75);
   text-align: justify;
   /* background-color: #ff7276; */
+  border: 5px solid white;
   /* padding: 30px; */
   margin-bottom: 30px;
   margin-top: 30px;
@@ -51,12 +52,13 @@ img {
 }
 
 .showcase-cont {
-  margin: 5rem 0rem;
+  padding: 0rem 5%;
+  margin: 5rem 10%;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 5%;
 }
 
 .card-body {
